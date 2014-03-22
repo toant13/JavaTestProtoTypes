@@ -1,0 +1,10 @@
+package mil.ssc.pac.jerseytest.test;
+
+import mil.ssc.pac.jerseytest.proxy.SecondJerseyConnector;
+
+public class ConnectorTest {
+	public static void main(String[] args) {
+		SecondJerseyConnector jc = new SecondJerseyConnector();
+		System.out.println(jc.getTestMsg());
+	}
+}

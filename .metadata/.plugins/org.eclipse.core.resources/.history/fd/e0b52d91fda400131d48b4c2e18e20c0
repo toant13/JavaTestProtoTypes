@@ -1,0 +1,109 @@
+package com.test.client;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URI;
+
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.Entity;
+import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.UriBuilder;
+
+import org.glassfish.jersey.media.multipart.FormDataMultiPart;
+import org.glassfish.jersey.media.multipart.MultiPart;
+import org.glassfish.jersey.media.multipart.MultiPartFeature;
+import org.glassfish.jersey.media.multipart.file.FileDataBodyPart;
+import org.glassfish.jersey.media.multipart.file.StreamDataBodyPart;
+
+public class ClientJersey2 {
+
+	
+	public static void main(String[] args) throws IOException {
+		System.out.println("starting");
+		ClientJersey2 cj = new ClientJersey2();
+		cj.getTest();
+		cj.save();
+		cj.saveStream();
+		
+		cj.getFile();
+	}
+	
+	
+	public void getTest()
+	{
+		
+		Client client = ClientBuilder.newClient();
+		
+		WebTarget target = client.target(getBaseURI());
+		String result = target.path("myresource").path("msg").request().get(String.class);
+		System.out.println(result);
+		
+		
+		
+	}
+	
+	
+	public void save()
+	{
+		Client client = ClientBuilder.newClient().register(MultiPartFeature.class);	
+		WebTarget target = client.target(getBaseURI());
+		
+		File data = new File("/Users/toantran/Documents/Java_development/workspace/JerseyTest/src/main/resources/input/input.xml");
+        FileDataBodyPart fileDataBodyPart = new FileDataBodyPart("file", data, MediaType.APPLICATION_OCTET_STREAM_TYPE);
+        MultiPart entity = new FormDataMultiPart().bodyPart(fileDataBodyPart);
+        String response = target.path("myresource").path("save").request().post(Entity.entity(entity, MediaType.MULTIPART_FORM_DATA_TYPE), String.class);
+        System.out.println(response);
+	}
+	
+	public void saveStream() throws FileNotFoundException
+	{
+		Client client = ClientBuilder.newClient().register(MultiPartFeature.class);	
+		WebTarget target = client.target(getBaseURI());
+		
+		File data = new File("/Users/toantran/Documents/Java_development/workspace/JerseyTest/src/main/resources/input/input.xml");
+//        FileDataBodyPart fileDataBodyPart = new FileDataBodyPart("file", data, MediaType.APPLICATION_OCTET_STREAM_TYPE);
+        
+        InputStream fStream = new FileInputStream(data);
+        StreamDataBodyPart sb = new StreamDataBodyPart("file",fStream,data.getName(),MediaType.APPLICATION_OCTET_STREAM_TYPE);
+        
+        MultiPart entity = new FormDataMultiPart().bodyPart(sb);
+        String response = target.path("myresource").path("stream").request().post(Entity.entity(entity, MediaType.MULTIPART_FORM_DATA_TYPE), String.class);
+        System.out.println(response);
+	}
+	
+	public void getFile() throws IOException
+	{
+		Client client = ClientBuilder.newClient().register(MultiPartFeature.class);	
+		WebTarget target = client.target(getBaseURI());
+        MultiPart response = target.path("myresource").path("getfile").request().get(MultiPart.class);
+        
+        
+        File file = response.getBodyParts().get(0).getEntityAs(File.class);
+      
+        System.out.println(file.getAbsolutePath());
+        System.out.println(file.getName() + " ");
+
+        BufferedReader br = new BufferedReader(new FileReader(file));
+        String line = null;
+        while ((line = br.readLine()) != null) {
+          System.out.println(line);
+        }
+	}
+	
+	
+	
+	private URI getBaseURI()
+	{
+		return UriBuilder.fromUri("http://localhost:8080/").build();
+	}
+	
+	
+	
+}

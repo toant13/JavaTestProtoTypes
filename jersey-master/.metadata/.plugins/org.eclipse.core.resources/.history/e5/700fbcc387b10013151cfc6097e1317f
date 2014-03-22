@@ -1,0 +1,7 @@
+package mil.ssc.pac.jerseytest.test;
+
+public class WebAppTest {
+	public static void main(String[] args) {
+		System.out.println("test");
+	}
+}

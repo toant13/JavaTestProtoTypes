@@ -1,0 +1,2 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>Added admin module</message>\n<message>Added a new workout</message>\n<message>test</message>\n<message>Initial Commit</message>\n<message>Changed template title</message>\n<message>Add the form.</message>\n<message>made urls more generic</message>\n<message>Added index and details page. Updated views.py for new pages.</message>\n<message>Updated views with correct parameters</message>\n<message>Added urls.py to polls app</message>\n</messages>
+eclipse.preferences.version=1

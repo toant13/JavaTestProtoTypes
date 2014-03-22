@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 7 resources" deleteContents="false" description="Delete 7 resources" element1="/Client" element2="/Django_Restful" element3="/OneExProjV1" element4="/RegiWorkoutV1" element5="/ScratchBlog" element6="/simple-service" element7="/TesterForSaxon" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="7" stamp="1395501148381"/>
+</session>

@@ -1,0 +1,7 @@
+package mil.ssc.pac.jerseytest.proxy;
+
+public class SecondJerseyConnector {
+	public String getTestMsg(){
+		
+	}
+}

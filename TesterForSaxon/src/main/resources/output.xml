@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed>
+  <author> 
+      <firstName>f</firstName>
+      <lastName>l</lastName>
+  </author>
+  <date>2011-01-02 </date>
+  <entry>
+      <id>1</id>
+      <Name>aaaINput1</Name>
+      <Content>XXXinput1</Content>     
+  </entry>
+  
+   <entry>
+        <id>2</id>
+        <Name>input2name</Name>
+        <Content>newContent</Content>     
+      </entry>
+   <entry>
+        <id>3</id>
+        <Name>input2ccc</Name>
+        <Content>input2ZZZ</Content>   
+      </entry>
+</feed>

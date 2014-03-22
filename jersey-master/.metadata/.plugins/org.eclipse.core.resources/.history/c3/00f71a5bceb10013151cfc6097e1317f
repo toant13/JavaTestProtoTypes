@@ -1,0 +1,14 @@
+package mil.ssc.pac.jerseytest.test;
+
+import org.junit.Test;
+
+public class WebAppTest {
+	
+	@Test
+	public void test(){
+		System.out.println("first test");
+	}
+	
+	
+
+}
