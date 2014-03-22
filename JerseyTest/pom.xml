@@ -92,7 +92,22 @@
 		    <groupId>org.glassfish.jersey.media</groupId>
 		    <artifactId>jersey-media-sse</artifactId>
 		    <version>${jersey-version}</version>
-		</dependency>       
+		</dependency>   
+		
+		<!-- embedded jetty -->
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-server</artifactId>
+			<version>9.0.6.v20130930</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-jetty-http</artifactId>
+			<version>${jersey-version}</version>
+			<scope>test</scope>
+		</dependency>     
     </dependencies>
     
 	

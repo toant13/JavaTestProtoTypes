@@ -1,0 +1,5 @@
+package mil.ssc.pac.jerseytest.test.psuedoapp;
+
+public class PsuedoResource {
+
+}

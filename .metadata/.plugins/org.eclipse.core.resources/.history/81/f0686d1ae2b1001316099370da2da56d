@@ -1,0 +1,42 @@
+package mil.ssc.pac.jerseytest.test;
+
+import java.net.URI;
+
+import javax.ws.rs.core.UriBuilder;
+
+import mil.ssc.pac.jerseytest.MyResource;
+
+import org.glassfish.jersey.server.ResourceConfig;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.nba.nfl.sea.SecondJerseyApplication;
+
+import static org.junit.Assert.assertTrue;
+
+public class WebAppTest {
+	
+	
+	
+	@BeforeClass
+	public void setup(){
+		URI baseUri = UriBuilder.fromUri("http://localhost/").port(8081).build();
+		ResourceConfig config = ResourceConfig.forApplicationClass(PseudoApplication.class);
+	
+	}
+	
+	@AfterClass
+	public void tearDown(){
+		
+	}
+	
+	
+	@Test
+	public void test(){
+		MyResource m = new MyResource();
+		assertTrue("getTest failed cause return didn't match", m.getIt().equals("Hi therdfasdfse!"));
+	}
+	
+	
+
+}
