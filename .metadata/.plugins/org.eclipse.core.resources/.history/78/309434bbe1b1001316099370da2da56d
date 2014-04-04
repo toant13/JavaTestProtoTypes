@@ -1,7 +1,0 @@
-package mil.ssc.pac.jerseytest.test.psuedoapp;
-
-import javax.ws.rs.core.Application;
-
-public class PsuedoApplication extends Application{
-
-}

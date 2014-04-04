@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;mil.ssc.pac.JerseyTest&apos; to &apos;mil.ssc.pac.jerseytest&apos;&#x0A;- Original project: &apos;JerseyTest&apos;&#x0A;- Original element: &apos;JerseyTest/src/main/java/mil.ssc.pac.JerseyTest&apos;&#x0A;- Renamed element: &apos;JerseyTest/src/main/java/mil.ssc.pac.jerseytest&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;mil.ssc.pac.JerseyTest&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;mil.ssc.pac.JerseyTest" name="mil.ssc.pac.jerseytest" qualified="false" references="true" stamp="1394596488035" textual="false" version="1.0"/>
-</session>

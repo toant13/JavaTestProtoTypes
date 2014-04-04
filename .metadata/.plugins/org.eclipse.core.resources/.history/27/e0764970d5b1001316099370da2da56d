@@ -1,9 +1,0 @@
-package com.nba.nfl.sea;
-
-import javax.ws.rs.Path;
-
-
-@Path("/second")
-public class SecondJersResource {
-
-}

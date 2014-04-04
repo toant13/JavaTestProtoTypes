@@ -1,2 +1,0 @@
-INDEX VERSION 1.122+/Users/toantran/Documents/Java_development/workspace/jersey-master/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-663279453.index

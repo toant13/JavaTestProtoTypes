@@ -159,15 +159,15 @@ public class MyResource {
 		mapA.put("j", "jsssson");
 		
 		Map<String, String> mapB = new HashMap<String, String>();
-		mapA.put("b", "beta");
-		mapA.put("c", "cat");
-		mapA.put("d", "dog");
+		mapB.put("b", "beta");
+		mapB.put("c", "cat");
+		mapB.put("d", "dog");
 		
 		
-		List<Map<String, String>> list = new ArrayList<Map<String, String>>();
+		List<Map<String,String>> list = new ArrayList<Map<String,String>>();
 		list.add(mapA);
 		list.add(mapB);
-		System.out.println(list.get(1).get("a"));
+		
 		String json = mapper.writeValueAsString(list);
 		
 		

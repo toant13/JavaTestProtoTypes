@@ -24,6 +24,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/toantran/Documents/Java_development/workspace"/>
 			<item value="/Users/toantran/Documents/Java_development/workspace/Jersey2/simple-service"/>
 			<item value="/Users/toantran/Documents/Java_development/workspace/Django_Restful"/>
 		</list>
@@ -53,6 +54,12 @@
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+		<list key="catalogUrl">
+			<item value="https://maven.java.net/content/repositories/snapshots/"/>
+			<item value="http://download.java.net/maven/2/archetype-catalog.xml"/>
+		</list>
+	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
 			<item value="/Users/toantran/Documents/Java_development/workspace/Jersey2/simple-service"/>
@@ -67,21 +74,19 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 		</list>
 	</section>
-	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
-		<list key="catalogUrl">
-			<item value="https://maven.java.net/content/repositories/snapshots/"/>
-			<item value="http://download.java.net/maven/2/archetype-catalog.xml"/>
-		</list>
-	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.secon.jersey"/>
+			<item value="com.go.what"/>
 			<item value="Com.what.jersey.test"/>
 			<item value="TEstweb"/>
 		</list>
 		<list key="name">
+			<item value="Second Jersey"/>
 			<item value="HELLOW"/>
 		</list>
 		<list key="artifactId">
+			<item value="SecondJersey"/>
 			<item value="JerseyClientTest"/>
 			<item value="etrset"/>
 		</list>
@@ -94,6 +99,7 @@
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
+			<item value="1"/>
 		</list>
 	</section>
 </section>

@@ -129,8 +129,7 @@ public class ClientJersey2 {
 		List<Map<String,String>> list = mapper.readValue(result, mapper.getTypeFactory()
 				.constructCollectionType(List.class, Map.class));
 
-		System.out.println(list.get(0).get("z"));
-		System.out.println(list.size());
+		System.out.println(list);
 	}
 
 	public void save() {

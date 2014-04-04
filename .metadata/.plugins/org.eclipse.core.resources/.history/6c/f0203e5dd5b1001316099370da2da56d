@@ -1,7 +1,0 @@
-package com.nba.nfl.sea;
-
-import javax.ws.rs.core.Application;
-
-public class SecondJerseyApplication extends Application{
-
-}

@@ -2838,3 +2838,51 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-26 23:45:21.481
 !MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-26 23:50:30.036
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-26 23:50:30.039
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-26 23:50:41.090
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-26 23:50:41.092
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-26 23:51:19.038
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-26 23:51:19.040
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-26 23:52:40.690
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-26 23:52:40.692
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-26 23:52:51.331
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-26 23:52:51.333
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-04-04 13:26:01.245
+!MESSAGE Launch configuration ClientJersey2 references non-existing project JerseyClientTest.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-04-04 13:26:01.338
+!MESSAGE Launch configuration ClientJersey2 references non-existing project JerseyClientTest.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-04-04 13:26:01.414
+!MESSAGE Launch configuration ClientJersey2 references non-existing project JerseyClientTest.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-04-04 13:26:01.417
+!MESSAGE Launch configuration ServerEmb references non-existing project SecondJersey.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-04-04 13:26:01.417
+!MESSAGE Launch configuration ServerEmb references non-existing project SecondJersey.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-04-04 13:26:01.422
+!MESSAGE Launch configuration ServerEmb references non-existing project SecondJersey.

@@ -1,7 +1,0 @@
-package mil.ssc.pac.jerseytest.test;
-
-public class ConnectorTest {
-	public static void main(String[] args) {
-		SecondJerseyConnector jc = new SecondJerseyConnector();
-	}
-}
