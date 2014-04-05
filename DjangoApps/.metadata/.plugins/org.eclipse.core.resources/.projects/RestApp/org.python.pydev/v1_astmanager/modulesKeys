@@ -1,0 +1,11 @@
+MODULES_MANAGER_V2
+RestApp.__init__|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/RestApp/__init__.py
+RestApp.settings|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/RestApp/settings.py
+RestApp.urls|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/RestApp/urls.py
+RestApp.wsgi|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/RestApp/wsgi.py
+books.__init__|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/books/__init__.py
+books.admin|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/books/admin.py
+books.models|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/books/models.py
+books.tests|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/books/tests.py
+books.views|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/books/views.py
+manage|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/manage.py

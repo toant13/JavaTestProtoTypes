@@ -1,0 +1,2 @@
+INITIAL_INTERPRETER_CMDS=from django.conf import settings\nsettings.configure()\nimport sys; print('%s %s' % (sys.executable or sys.platform, sys.version))\n
+eclipse.preferences.version=1

@@ -1,0 +1,58 @@
+-- VERSION_3
+-- START DISKCACHE
+/Users/toantran/Documents/Java_development/workspace/DjangoApps/.metadata/.plugins/org.eclipse.core.resources/.projects/RestApp/com.python.pydev.analysis/v1_indexcache
+.v1_indexcache
+RestApp.__init__|0|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/RestApp/__init__.py
+books.models|0|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/books/models.py
+books.__init__|0|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/books/__init__.py
+books.tests|0|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/books/tests.py
+RestApp.urls|0|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/RestApp/urls.py
+books.admin|0|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/books/admin.py
+RestApp.wsgi|0|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/RestApp/wsgi.py
+manage|0|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/manage.py
+books.views|0|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/books/views.py
+RestApp.settings|0|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/RestApp/settings.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+5=Book
+3=books.models
+4=RestApp.urls
+6=Author
+2=RestApp.wsgi
+1=RestApp.settings
+-- END DICTIONARY
+-- START TREE 1
+18
+all|1|ALLOWED_HOSTS!11@
+app|1|application!19@
+aut|2|Author!25@AuthorManager!25@
+bas|1|BASE_DIR!11@
+boo|2|Book!25@BookManager!25@
+dat|1|DATABASES!11@
+deb|1|DEBUG!11@
+ins|1|INSTALLED_APPS!11@
+lan|1|LANGUAGE_CODE!11@
+mid|1|MIDDLEWARE_CLASSES!11@
+roo|1|ROOT_URLCONF!11@
+sec|1|SECRET_KEY!11@
+sta|1|STATIC_URL!11@
+tem|1|TEMPLATE_DEBUG!11@
+tim|1|TIME_ZONE!11@
+url|1|urlpatterns!35@
+use|3|USE_I18N!11@USE_TZ!11@USE_L10N!11@
+wsg|1|WSGI_APPLICATION!11@
+-- END TREE
+-- START TREE 2
+10
+__u|2|__unicode__!5&26@__unicode__!6&26@
+aut|1|author!5&27@
+fie|0|
+fir|1|first_name!6&27@
+isb|1|isbn!5&27@
+las|1|last_name!6&27@
+met|0|
+mod|0|
+obj|2|objects!5&27@objects!6&27@
+tit|1|title!5&27@
+-- END TREE
