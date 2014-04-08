@@ -1,0 +1,1 @@
+Prototype for xslt transform that takes a list of strings(file paths), finds the correct  file path, and then sets a file to that file path.  After doing so, the file can be used as a dynamic way to transform a variable number of transform inputs.

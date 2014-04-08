@@ -1,9 +1,6 @@
-INSTUPbooks.serializers
-/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/books/serializers.py
-INFOS:&&1|1|2|0&&1|3|2|1&&3|4|2|5&&3|6|2|5
-model=4
-books.serializers=2
-Meta=3
-AuthorSerializer.Meta=5
-fields=6
-AuthorSerializer=1
+INSTUPsimplepastebin.views
+/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/simplepastebin/views.py
+INFOS:&&1|1|2|0&&2|3|2|1
+__init__=3
+simplepastebin.views=2
+JSONResponse=1

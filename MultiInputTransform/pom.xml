@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tran.toan</groupId>
+  <artifactId>MultiInputTransform</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>MultiTransform</name>
+  <description>Prototype for multiple file input transform</description>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>net.sf.saxon</groupId>
+  		<artifactId>Saxon-HE</artifactId>
+  		<version>9.4</version>
+  	</dependency>
+  </dependencies>
+</project>

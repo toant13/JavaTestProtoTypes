@@ -1,0 +1,17 @@
+<feed>
+      <author> 
+       <firstName>f</firstName>
+       <lastName>l</lastName>
+      </author>
+      <date>2012-05-02 </date>
+      <entry>
+        <id>2</id>
+        <Name>input2name</Name>
+        <Content>newContent</Content>     
+      </entry>
+      <entry>
+        <id>3</id>
+        <Name>input2ccc</Name>
+        <Content>input2ZZZ</Content>   
+      </entry>
+  </feed>
