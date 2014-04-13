@@ -37,9 +37,13 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'simplepastebin',
-#     'rest_framework',
-#     'pygments',
+    'rest_framework',
+    'pygments',
 )
+
+REST_FRAMEWORK = {
+    'PAGINATE_BY': 10
+}
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',

@@ -13,16 +13,16 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="" key="selection"/>
+		<item value="obj1" key="selection"/>
 		<list key="findhistory">
+			<item value="obj1"/>
+			<item value="test"/>
 			<item value="sleep"/>
 			<item value="multipart"/>
 			<item value="jersey.version"/>
 			<item value="jetty"/>
 			<item value="comment"/>
 			<item value="author"/>
-			<item value="authoer"/>
-			<item value="os."/>
 		</list>
 		<list key="replacehistory">
 		</list>

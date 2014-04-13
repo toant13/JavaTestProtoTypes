@@ -24,6 +24,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/toantran/Documents/Java_development/workspace/TesterForSaxon/pom.xml"/>
+			<item value="/Users/toantran/Documents/Java_development/workspace/TesterForSaxon/src/main/resources/transforms.xslt"/>
 			<item value="/Users/toantran/Documents/Java_development/workspace"/>
 			<item value="/Users/toantran/Documents/Java_development/workspace/Jersey2/simple-service"/>
 			<item value="/Users/toantran/Documents/Java_development/workspace/Django_Restful"/>
@@ -62,6 +64,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/toantran/Documents/Java_development/workspace"/>
 			<item value="/Users/toantran/Documents/Java_development/workspace/Jersey2/simple-service"/>
 			<item value="/Users/toantran/Documents/Java_development/workspace/Jersey2"/>
 			<item value="/Users/toantran/Downloads/jersey/examples/helloworld-webapp"/>
@@ -76,16 +79,22 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.tran.tony"/>
+			<item value="com.tran.toan"/>
+			<item value="com.sec.tran.tony"/>
 			<item value="com.secon.jersey"/>
 			<item value="com.go.what"/>
 			<item value="Com.what.jersey.test"/>
 			<item value="TEstweb"/>
 		</list>
 		<list key="name">
+			<item value="MultiTransform"/>
 			<item value="Second Jersey"/>
 			<item value="HELLOW"/>
 		</list>
 		<list key="artifactId">
+			<item value="MokitoInjectionTestProtyotype"/>
+			<item value="MultiInputTransform"/>
 			<item value="SecondJersey"/>
 			<item value="JerseyClientTest"/>
 			<item value="etrset"/>
@@ -98,8 +107,8 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 		</list>
 		<list key="version">
-			<item value="0.0.1-SNAPSHOT"/>
 			<item value="1"/>
+			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
 </section>

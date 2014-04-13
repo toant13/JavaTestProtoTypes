@@ -1,0 +1,14 @@
+INSTUPsimplepastebin.serializers
+/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/simplepastebin/serializers.py
+INFOS:&&1|1|2|0&&3|3|2|1&&3|4|2|1&&1|5|2|1&&3|6|2|7&&3|8|2|7&&1|9|2|0&&3|10|2|9&&1|5|2|9&&3|6|2|11&&3|8|2|11
+SnippetSerializer.Meta=7
+model=6
+simplepastebin.serializers=2
+owner=3
+Meta=5
+UserSerializer=9
+SnippetSerializer=1
+snippets=10
+highlight=4
+UserSerializer.Meta=11
+fields=8

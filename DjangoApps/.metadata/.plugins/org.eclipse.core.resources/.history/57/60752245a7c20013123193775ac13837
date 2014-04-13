@@ -1,0 +1,46 @@
+from django.contrib.auth.models import User
+from rest_framework import generics, permissions, reverse
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from simplepastebin.models import Snippet
+from simplepastebin.permissions import IsOwnerOrReadOnly
+from simplepastebin.serializers import SnippetSerializer, UserSerializer
+
+
+
+
+class SnippetList(generics.ListCreateAPIView):
+    queryset = Snippet.objects.all()
+    serializer_class = SnippetSerializer
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
+    
+    def pre_save(self, obj):
+        obj.owner = self.request.user
+
+class SnippetDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Snippet.objects.all()
+    serializer_class = SnippetSerializer
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly,
+                      IsOwnerOrReadOnly,)
+    
+    
+    def pre_save(self, obj):
+        obj.owner = self.request.user
+    
+class UserList(generics.ListAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+
+
+class UserDetail(generics.RetrieveAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    
+    
+@api_view(('GET',))
+def api_root(request, format=None):
+    return Response({
+        'users': reverse('user-list', request=request, format=format),
+        'snippets': reverse('snippet-list', request=request, format=format)
+    })
+    

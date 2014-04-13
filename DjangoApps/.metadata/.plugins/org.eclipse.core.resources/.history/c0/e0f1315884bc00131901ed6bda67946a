@@ -1,0 +1,20 @@
+
+
+# Create your views here.
+from .models import Author, Book
+from .serializers import AuthorSerializer, BookSerializer
+from rest_framework import generics
+
+class AuthorView(generics.ListAPIView):
+    """
+    Returns a list of all authors.
+    """
+    model = Author
+    serializer_class = AuthorSerializer
+    
+# class BookView(generics.ListAPIView):
+#     """
+#     Returns a list of all book.
+#     """
+#     model = Book
+#     serializer_class = BookSerializer

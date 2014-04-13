@@ -37,14 +37,24 @@
 <fullyQualifiedTypeName name="org.eclipse.jetty.server.Server"/>
 <fullyQualifiedTypeName name="org.glassfish.jersey.jetty.JettyHttpContainerFactory"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.Application"/>
-<fullyQualifiedTypeName name="org.junit.Before"/>
 <fullyQualifiedTypeName name="org.junit.After"/>
-<fullyQualifiedTypeName name="org.junit.BeforeClass"/>
 <fullyQualifiedTypeName name="org.junit.AfterClass"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="org.codehaus.jackson.map.ObjectMapper"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.mockito.InjectMocks"/>
+<fullyQualifiedTypeName name="com.alpha.beta.delta.AncillaryObject"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="com.alpha.beta.gamma.MainObject"/>
+<fullyQualifiedTypeName name="org.mockito.Mockito"/>
+<fullyQualifiedTypeName name="org.junit.BeforeClass"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+<fullyQualifiedTypeName name="org.mockito.MockitoAnnotations.Mock"/>
+<fullyQualifiedTypeName name="org.mockito.Spy"/>
+<fullyQualifiedTypeName name="org.mockito.Mock"/>
+<fullyQualifiedTypeName name="org.mockito.ArgumentCaptor"/>
 </qualifiedTypeNameHistroy>

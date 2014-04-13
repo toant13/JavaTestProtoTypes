@@ -1,0 +1,26 @@
+'''
+Created on Apr 4, 2014
+
+@author: toantran
+'''
+from books.models import Author, Book
+from rest_framework import serializers
+
+class BookSerializer(serializers.ModelSerializer):
+    """
+    Serializing all the Books
+    """
+    class Meta:
+        model = Book
+        fields = ('id', 'title', 'isbn')
+        
+class AuthorSerializer(serializers.ModelSerializer):
+    books = BookSerializer(many=True)
+    """
+    Serializing all the Authors
+    """
+    class Meta:
+        model = Author
+        fields = ('id', 'first_name', 'last_name')
+        
+        

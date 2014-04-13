@@ -1,0 +1,15 @@
+from rest_framework import generics
+from simplepastebin.models import Snippet
+from simplepastebin.serializers import SnippetSerializer
+
+
+
+
+class SnippetList(generics.ListCreateAPIView):
+    queryset = Snippet.objects.all()
+    serializer_class = SnippetSerializer
+
+
+class SnippetDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Snippet.objects.all()
+    serializer_class = SnippetSerializer

@@ -1,0 +1,9 @@
+from django.shortcuts import render
+
+# Create your views here.
+class AuthorView(generics.ListAPIView):
+    """
+    Returns a list of all authors.
+    """
+    model = Author
+    serializer_class = AuthorSerializer
