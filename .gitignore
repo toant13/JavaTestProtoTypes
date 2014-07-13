@@ -1,0 +1,8 @@
+*.DS_Store
+RemoteSystemsTempFiles/
+*.classpath
+*.project
+.settings/
+target/
+*.sqlite3
+*.pyc
