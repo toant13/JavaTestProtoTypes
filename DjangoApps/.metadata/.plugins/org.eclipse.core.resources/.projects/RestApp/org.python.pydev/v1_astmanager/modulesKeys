@@ -1364,6 +1364,7 @@ rest_framework.viewsets|/Library/Python/2.7/site-packages/rest_framework/viewset
 simplepastebin.__init__|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/simplepastebin/__init__.py
 simplepastebin.admin|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/simplepastebin/admin.py
 simplepastebin.models|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/simplepastebin/models.py
+simplepastebin.permissions|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/simplepastebin/permissions.py
 simplepastebin.serializers|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/simplepastebin/serializers.py
 simplepastebin.tests|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/simplepastebin/tests.py
 simplepastebin.views|/Users/toantran/Documents/Java_development/workspace/DjangoApps/RestApp/simplepastebin/views.py

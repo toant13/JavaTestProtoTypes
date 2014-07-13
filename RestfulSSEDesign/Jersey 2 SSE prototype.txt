@@ -1,0 +1,10 @@
+Brief Overview of Design
+
+The server sent event design(Pulling Model) consists of two REST calls on the server side REST interface. The first method is POST call that creates a runnable object and executes it and the second method is a GET call that returns that status of the process executed. 
+
+--POST call--
+When the client hits the POST call, a process is created and then executed.  The process ID is wrapped up with a URI and returned to the client.  The client can then use that URI to monitor the status of the executed process.
+
+--GET call--
+When the process is executed, the server sends back updates to the client.  After the process is complete, there are no more events sent back to the client
+
